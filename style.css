@@ -1,0 +1,80 @@
+@font-face{
+    src: url(font/IosevkaCharon-Regular.ttf);
+    font-family: you;
+}
+
+body{
+    background-image: url(pictures/Gege_bg_art.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color:rgb(15, 15, 15);
+    margin-top: 0px;
+    margin-left:0px;
+    padding-top: 1px; /*remobe the default padding which causes a margin collapse */
+}
+
+footer{
+    
+    background-color:rgb(15, 15, 15);
+    padding-top: 1px; /*remobe the default padding which causes a margin collapse */
+    margin-bottom:0px;
+    margin-top:800px
+
+}
+
+.head_contain{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.logo_head{
+    margin-left: 20px;
+}
+
+.logo_head img{
+    height:120px;
+}
+
+.title_contain{
+    display:flex;
+    flex-direction: column;
+}
+
+.title_contain h3{
+    padding-left: 50px;
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(165, 165, 165);
+}
+
+.title_contain a{
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(83, 83, 83);
+    text-decoration: none;
+}
+
+.title_contain ul{
+    display: flex;
+    list-style:none;
+    gap:20px;
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(83, 83, 83);
+}
+
+.title_contain h4{
+    padding-left: 50px;
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(83, 83, 83);
+}
+.title_contain p{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(83, 83, 83);
+}

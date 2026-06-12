@@ -1,0 +1,76 @@
+@font-face{
+    src: url(font/IosevkaCharon-Regular.ttf);
+    font-family: you;
+}
+body{
+    background-color: rgb(29, 29, 29);
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+}
+.top_contain{
+    background-color: rgb(22, 22, 22);
+    height:100px;
+    padding-top:1px
+}
+
+.top_image img{
+    margin-top:-10px;
+    margin-left:10px;
+    height:120px
+}
+.contain_follow{
+    background-color: rgb(22, 22, 22);
+    height:100px; /*also important*/
+    padding-top:1px;
+    position:sticky;
+    top:0; /*important cause it tells where the div is placed during scrolling*/
+    width:100%; /*also important*/
+}
+
+.follow_title{
+    margin-left:40px;
+}
+
+.contain_follow a{
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(83, 83, 83);
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.image_contain{
+    display:flex;
+    overflow:auto;
+}
+
+
+.meet_char{
+    width:300px;
+    background-color: crimson;
+}
+
+.meet_char img{
+    height:500px
+}
+
+.Character_desc{
+    background-color: rgb(34, 34, 34);
+    padding:20px;
+    height:700px;
+}
+
+.Character_desc h3{
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(228, 228, 228);
+}
+
+.Character_desc p{
+    font-family: you, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(179, 179, 179);
+}
